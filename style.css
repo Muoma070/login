@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family:'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+
+.container{
+  background-color:#e67e22 ;
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  /* justify-self: center; */
+  text-align: center;
+  
+}
+
+.box{
+  width: 600px;
+  background-color: #fff;
+  height: 600px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  m
+  /* text-align: center;
+  justify-content: center;
+  display: flex; */
+}
+
+.log-in-welc-back{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.log-in-screen{
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+.cta-form {
+  display: grid;
+
+  
+}
+
+.cta-form label{
+  /* display: flex; */
+  float: left;
+  right: 0;
+
+}
+
+.cta-form input{
+ 
+  padding: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #fdfdfd;
+  margin-bottom: 30px;
+}
+
+.full-name{
+  display: block;
+
+  padding: 20px;
+}
+
+.forgot{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rem{
+  color: #e67e22;
+  font-weight: 400;
+}
+
+.btn{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background-color: #e67e22;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.dont{
+  font-size: 1.2rem;
+  font-weight: 200;
+
+}
+
+span{
+  color: #e67e22;
+}
